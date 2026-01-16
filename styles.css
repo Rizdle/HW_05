@@ -20,12 +20,13 @@ border: 1px dashed;
 }
 
 .nav{
-    height: 150px;
+    height: 200px;
     background-color: aqua;
     border: 1px solid;
     display: flex;
     justify-content: end;
     gap: 20px;
+    padding: 10px;
 }
 
 .box1{
