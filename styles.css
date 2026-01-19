@@ -27,7 +27,7 @@ body{
 }
 
 .container>*{
-border: 1px dashed;
+/* border: 1px dashed; */
 flex-grow: 1;
 flex-shrink: 1;
 }
@@ -36,7 +36,7 @@ flex-shrink: 1;
     font-size: 20px;
     height: 60px;
     background-color: rgb(255, 255, 255);
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     justify-content: end;
     gap: 30px;
@@ -60,9 +60,9 @@ flex-shrink: 1;
 }
 
 .box1>*{
-    background-color: aquamarine;
-    border: 1px dashed;
+    background-color: rgb(255, 255, 255);
     align-content: center;
+    /* border: 1px dashed; */
     
 
 }
@@ -87,8 +87,9 @@ flex-shrink: 1;
 
 
 .box2{
-    background-color: rgb(216, 243, 243);
+    background-color: rgb(216, 245, 243);
     height: 400px;
+    margin-top: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -105,8 +106,8 @@ width: 80%;
 padding-top: 10px;
 display: flex;
 justify-content: space-between;
-border: 1px dashed;
-background-color: aquamarine;
+/* border: 1px dashed; */
+background-color:  rgb(216, 245, 243);
 
 }
 
@@ -116,31 +117,31 @@ background-color: aquamarine;
     width: 80%;
     height: 100%;
     padding-block: 20px;
-    border: 1px dashed;
     display: flex;
     align-self:center;
-    border: 1px dashed;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
     flex-direction:row;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px dashed; */
 }
 
 .item2>*{
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     font-size: 20px;
-    border: 1px dashed;
-    /* flex-basis: 250px; */
+    padding: 20px;
     flex:1 1 250px;
+    /* border: 1px dashed; */
+    /* flex-basis: 250px; */
     
 }
 
 
 
 .box3{
-    background-color: rgb(255, 174, 88);
+    background-color: rgb(245, 245, 245);
     
     width: 80%;
     align-self: center;
@@ -151,7 +152,7 @@ background-color: aquamarine;
     font-size: 25px;
     padding-top: 10px;
     height: 50px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 
 .item1-2{
@@ -166,8 +167,8 @@ background-color: aquamarine;
 
 
 .feature2{
-    border: 1px dashed;
-    background-color: azure;
+    /* border: 1px dashed; */
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -175,10 +176,12 @@ background-color: aquamarine;
 }
 
 .feature2>*{
-    border: 1px dashed;
+    /* border: 1px dashed; */
     /* display: flex; */
     border-bottom: 1px solid;
     flex-direction: row;
+    padding-block: 20px;
+    
 }
 
 .pic-1{
