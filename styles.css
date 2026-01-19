@@ -100,7 +100,7 @@ flex-shrink: 1;
 
 .item1{
 align-self: center;
-font-size: 25px;
+font-size: 30px;
 height: 50px;
 width: 80%;
 padding-top: 10px;
@@ -149,7 +149,7 @@ background-color:  rgb(216, 245, 243);
 }
 
 .item1-1{
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 10px;
     height: 50px;
     background-color: rgb(255, 255, 255);
