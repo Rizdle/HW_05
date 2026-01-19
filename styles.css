@@ -12,13 +12,15 @@ body{
     
     margin: auto;
     max-width:1152px;
-    max-height:2041px;
-    border:  1px solid;
+    /* border:  1px solid; */
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-basis: auto;
     flex-direction: column;
     flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* gap: 20px; */
     
     
     
@@ -27,9 +29,7 @@ body{
 .container>*{
 border: 1px dashed;
 flex-grow: 1;
-flex-shrink: 0;
-
-
+flex-shrink: 1;
 }
 
 .nav{
@@ -41,6 +41,7 @@ flex-shrink: 0;
     justify-content: end;
     gap: 30px;
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 
@@ -48,21 +49,19 @@ flex-shrink: 0;
 .box1{
     
     background-color: rgb(182, 248, 147);
-    height: 500px;
     max-width: 80%;
-    min-width: 60%;
     display: flex;
     align-self: center;
     flex-wrap: wrap-reverse;
     flex-basis: auto;
     flex-direction: row;
+    flex-grow: 1;
     
 }
 
 .box1>*{
     background-color: aquamarine;
     border: 1px dashed;
-    
     align-content: center;
     
 
@@ -142,7 +141,7 @@ background-color: aquamarine;
 
 .box3{
     background-color: rgb(255, 174, 88);
-    height: 800px;
+    
     width: 80%;
     align-self: center;
 
@@ -164,13 +163,11 @@ background-color: aquamarine;
     flex-wrap: wrap;
 }
 
-.item1-2>*{
-    border: 1px dashed;
-    flex: 1 1 0px;
-    background-color: azure;
-}
+
 
 .feature2{
+    border: 1px dashed;
+    background-color: azure;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -185,30 +182,35 @@ background-color: aquamarine;
 }
 
 .pic-1{
-    flex:1 1 349.16px;
+    
+    flex:1 1 30%;
     flex-grow: 1; 
     
 }
 
+
+
 .detail{
-    flex:1 1 435.2px;
+    flex:1 1 70%;
     text-align:justify;
 }
 
 .footer{
     background-color: rgb(255, 255, 255);
-    height: 182px;
+    /* height: 182px; */
     flex-grow: 1;
     flex-shrink: 1;
     display: flex;
     justify-content: center;
 }
 
-.footimg{object-fit: cover;
+.footimg{
+    /* object-fit: cover; */
+    overflow:hidden ;
     flex-wrap: 1;
     flex-shrink: 1;
 }
 
-/* @media (max-width:900;) {
+@media (min-width:648px;) {content: ;
     
-} */
+}
