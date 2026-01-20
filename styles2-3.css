@@ -131,5 +131,12 @@ flex-shrink: 1;
         /* background-color: red; */
         min-width: 648px;
     }
+ .feature2 .pic-1{
+        display: flex;
+        justify-content: center;
+        border: none;
+        height: 450px;
+        width: 450px;
+    }
 
 }
