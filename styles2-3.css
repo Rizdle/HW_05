@@ -49,6 +49,9 @@ flex-shrink: 1;
     margin-bottom: 50px;
 }
 
+.nav i{
+visibility: hidden;
+}
 
 
 .box3{
@@ -138,5 +141,17 @@ flex-shrink: 1;
         height: 450px;
         width: 450px;
     }
+
+.nav a{
+visibility: hidden;
+
+
+}
+
+.nav i{
+    position: absolute;
+visibility: visible;
+font-size: 40px;
+}
 
 }
