@@ -38,14 +38,16 @@ flex-shrink: 1;
 
 .nav{
     font-size: 20px;
-    height: 60px;
-    background-color: rgb(255, 255, 255);
-    /* border: 1px solid; */
+    height: 10vh;
     display: flex;
     justify-content: end;
     gap: 30px;
     padding: 10px;
+    padding-top: 2%;
+    padding-right: 4%;
     margin-bottom: 50px;
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 1px solid; */
 }
 
 
@@ -92,26 +94,27 @@ flex-shrink: 1;
 
 .box2{
     background-color: rgb(216, 245, 243);
-    height: 400px;
-    margin-top: 50px;
+    height: 400%;
     width: 100%;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-self: center;
     flex-shrink: 1;
     flex-grow: 1;
+
 }
 
 .item1{
 align-self: center;
 font-size: 25px;
-height: 50px;
+height: 10vh;
 width: 80%;
-padding-top: 10px;
+padding-top: 20px;
 display: flex;
 justify-content: space-between;
 /* border: 1px dashed; */
-background-color:  rgb(216, 245, 243);
+/* background-color:  rgb(216, 245, 243); */
 
 }
 
@@ -127,7 +130,7 @@ background-color:  rgb(216, 245, 243);
     gap: 20px;
     justify-content: space-between;
     flex-direction:row;
-    background-color:  rgb(216, 245, 243);
+    /* background-color:  rgb(216, 245, 243); */
     /* border: 1px dashed; */
 }
 
@@ -154,8 +157,8 @@ background-color:  rgb(216, 245, 243);
 
 .item1-1{
     font-size: 30px;
-    padding-top: 10px;
-    height: 50px;
+    padding-top: 20px;
+    height: 10vh;
     background-color: rgb(255, 255, 255);
 }
 
@@ -219,9 +222,61 @@ background-color:  rgb(216, 245, 243);
 }
 
 @media (max-width: 648px) {
+    .page{min-width: 648px;}
     .container{
-        background-color: red;
-    
+        /* background-color: red; */
+        min-width: 648px;
     }
+
+    .headline{text-align: center;
+       
+    }
+
+    .picpro{
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature2 .pic-1{
+        display: flex;
+        justify-content: center;
+        border: none;
+        height: 450px;
+        width: 450px;
+    }
+
+    #button{
+    background-color: rgb(255, 102, 0);
+    font-size: 30px ;
+    color: white;
+    width: 320px;
+    height: 80px;
+}
+
+#viall{
+    visibility: hidden;
+    width: 0%;
+}
+
+.item1{
+    justify-content: center;
+    height: 40hv;
+    font-size: 40px;
+    
+}
+
+.item1-1 p{
+ justify-content: center;
+    font-size: 40px;
+    text-align: center;
+}
+.item1-1{
+    height: 40hv;
+}
+
+
+
+
+
 }
 
