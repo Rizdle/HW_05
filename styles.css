@@ -39,7 +39,7 @@ flex-shrink: 1;
 
 .nav{
     font-size: 20px;
-    height: 10vh;
+    height: 3vh;
     display: flex;
     justify-content: end;
     gap: 30px;
@@ -109,7 +109,7 @@ flex-shrink: 1;
 .item1{
 align-self: center;
 font-size: 25px;
-height: 10vh;
+height: 3vh;
 width: 80%;
 padding-top: 20px;
 display: flex;
@@ -136,7 +136,7 @@ justify-content: space-between;
 }
 
 .item2>*{
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     font-size: 20px;
     padding: 20px;
@@ -159,7 +159,7 @@ justify-content: space-between;
 .item1-1{
     font-size: 30px;
     padding-top: 20px;
-    height: 10vh;
+    height: 3vh;
     /* background-color: rgb(255, 255, 255); */
 }
 
